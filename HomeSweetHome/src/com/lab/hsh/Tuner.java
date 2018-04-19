@@ -1,31 +1,29 @@
 package com.lab.hsh;
 
 public class Tuner implements Device {
+	private void setAm() {
+		// TODO Auto-generated method stub
+		System.out.println("AM freq defined");
+	}
+
+	private void setFm() {
+		// TODO Auto-generated method stub
+		System.out.println("FM freq defined");
+	}
 	
-	private boolean isOn = false;
-	
-	@Override
+	private void setFrequency() {
+		// TODO Auto-generated method stub
+		System.out.println("Set desired frequency - am/fm mode");
+	}
+
 	public void on() {
-		isOn = true;
-		System.out.println("Cdplayer is on.");
+		System.out.println("Tuner is on");
+		
 	}
 
 	@Override
 	public void off() {
-		isOn = false;
-		System.out.println("Cdplayer is off.");
+		System.out.println("Tuner is on");
+		
 	}
-	
-	public void setAM() {
-		System.out.println("AM set");
-	}
-	
-	public void setFM() {
-		System.out.println("FM set");
-	}
-	
-	public void setFrequency() {
-		System.out.println("Frequency set");
-	}
-
 }
