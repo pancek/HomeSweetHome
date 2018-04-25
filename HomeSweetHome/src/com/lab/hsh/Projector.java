@@ -14,7 +14,7 @@ public class Projector implements Device {
 	public void off() {
 		// TODO Auto-generated method stub
 		isOn = true;
-		System.out.println("Projector is on");
+		System.out.println("Projector is off");
 	}
 	
 	private void wideScreenMode() {

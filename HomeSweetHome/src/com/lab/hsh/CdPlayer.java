@@ -21,7 +21,7 @@ public class CdPlayer implements Device {
 	}
 
 	public void play(String cd) {
-		System.out.println("Is playnig: " + cd);
+		System.out.println("Is playing: " + cd);
 	}
 	
 	public void stop() {

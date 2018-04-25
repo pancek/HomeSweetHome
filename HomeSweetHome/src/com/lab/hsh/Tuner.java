@@ -23,7 +23,7 @@ public class Tuner implements Device {
 
 	@Override
 	public void off() {
-		System.out.println("Tuner is on");
+		System.out.println("Tuner is off");
 		
 	}
 }

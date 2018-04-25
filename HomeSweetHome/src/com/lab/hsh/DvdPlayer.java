@@ -14,7 +14,7 @@ public class DvdPlayer implements Device {
 	@Override
 	public void off() {
 		isOn = true;
-		System.out.println("DvdPlayer is on");
+		System.out.println("DvdPlayer is off");
 		
 	}
 	
